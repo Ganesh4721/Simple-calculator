@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="./text.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <h1>SIMPLE CALCULATOR</h1>    
+    <form id="calForm" Name = "cal" class="display-box">
+        <input name="display" id ="display" disabled><br>
+        <input type="button" class="button1" value="1" onclick="cal.display.value+='1'">
+        <input type="button" class="button1"value="2" onclick="cal.display.value+='2'">
+        <input type="button" class="button1"value="3" onclick="cal.display.value+='3'">
+        <input type="button" class="button1"value="+" onclick="cal.display.value+='+'">
+        <br>
+        <input type="button" class="button1" value="4" onclick="cal.display.value+='4'">
+        <input type="button" class="button1" value="5" onclick="cal.display.value+='5'">
+        <input type="button" class="button1" value="6" onclick="cal.display.value+='6'">
+        <input type="button" class="button1" value="-" onclick="cal.display.value+='-'">
+        <br>
+        <input type="button"  class="button1" value="7" onclick="cal.display.value+='7'">
+        <input type="button"  class="button1" value="8" onclick="cal.display.value+='8'">
+        <input type="button"  class="button1" value="9" onclick="cal.display.value+='9'">
+        <input type="button"  class="button1" value="*" onclick="cal.display.value+='*'">
+        <br>
+        <input type="button"  class="button1" value="0" onclick="cal.display.value+='0'">
+        <input type="button" class="button1" value="C" onclick="myFunction()">
+        <input type="button" class="button1" value="=" onclick="myCalculate()">
+        <input type="button" class="button1" value="/" onclick="cal.display.value+='/'">
+        
+
+    </form>
+
+    <script type="text/javascript" src="./cal.js"></script>
+</body>
+</html>

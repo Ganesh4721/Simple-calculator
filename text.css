@@ -1,0 +1,39 @@
+h1,form{
+    text-align: center;
+}
+
+input{
+    width:150px;
+    height:80px;
+    font-size: 50px;
+    margin:10px;
+    border-radius:10px;
+    background-color: rgba(255, 255, 255, 0.932);
+}
+input:hover{
+    background-color: rgba(136, 175, 183, 0.932);
+}
+
+#display{
+    color: black;
+    padding:10px;
+    border:3px;
+    width:660px;
+    background-color: rgba(136, 175, 183, 0.932);
+}
+
+@media screen and (max-width: 800px) {
+    input{
+    width:80px;
+    height:40px;
+    font-size: 30px;
+    margin:5px;
+    border-radius:5px; 
+    }
+    #display{
+        width:340px;
+    }
+    h1{
+        font-size:20px;
+    }
+}
